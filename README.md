@@ -5,3 +5,16 @@ Gege Wen<sup>a</sup>, Zongyi Li<sup>b</sup>, Kamyar Azizzadenesheli<sup>c</sup>,
 <sup>a</sup> Energy Resources Engineering, Stanford University
 <sup>b</sup> Computing and Mathematical Sciences, California Institute of Technology
 <sup>c</sup> Department of Computer Science, Purdue University
+
+## Model architecture
+
+## Data sets
+
+## Training example
+
+## Evaluation example
+
+## Pre-trained models
+
+## Requirements
+- [PyTorch 1.8.0](https://pytorch.org/)
