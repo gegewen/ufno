@@ -20,11 +20,5 @@ The data set is available at: https://drive.google.com/drive/folders/1fZQfMn_vsj
 ## Pre-trained models
 The pre-trained models is available at: https://drive.google.com/drive/folders/1eHTGITZUM55NokoWqaPSzLRoJMIoJQoD?usp=sharing
 
-## Training example
-
-
-## Evaluation example
-
-
 ## Requirements
 - [PyTorch 1.8.0](https://pytorch.org/)
