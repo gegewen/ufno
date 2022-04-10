@@ -24,11 +24,11 @@ The pre-trained models is available at: https://drive.google.com/drive/folders/1
 - [PyTorch 1.8.0](https://pytorch.org/)
 
 ## Citation
-@article{wen2022u,
-  title={U-FNO--An enhanced Fourier neural operator-based deep-learning model for multiphase flow},
-  author={Wen, Gege and Li, Zongyi and Azizzadenesheli, Kamyar and Anandkumar, Anima and Benson, Sally M},
-  journal={Advances in Water Resources},
-  pages={104180},
-  year={2022},
-  publisher={Elsevier}
-}
+    @article{wen2022u,
+      title={U-FNO--An enhanced Fourier neural operator-based deep-learning model for multiphase flow},
+      author={Wen, Gege and Li, Zongyi and Azizzadenesheli, Kamyar and Anandkumar, Anima and Benson, Sally M},
+      journal={Advances in Water Resources},
+      pages={104180},
+      year={2022},
+      publisher={Elsevier}
+    }
