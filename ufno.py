@@ -65,7 +65,7 @@ class U_net(nn.Module):
         self.deconv1 = self.deconv(input_channels*2, output_channels)
         self.deconv0 = self.deconv(input_channels*2, output_channels)
     
-        self.output_layer0 = self.output_layer(input_channels*2, output_channels, 
+        self.output_layer = self.output(input_channels*2, output_channels, 
                                          kernel_size=kernel_size, stride=1, dropout_rate = dropout_rate)
 
 
@@ -79,7 +79,7 @@ class U_net(nn.Module):
         concat1 = torch.cat((out_conv1, out_deconv1), 1)
         out_deconv0 = self.deconv0(concat1)
         concat0 = torch.cat((x, out_deconv0), 1)
-        out = self.output_layer0(concat0)
+        out = self.output_layer(concat0)
 
         return out
 
@@ -99,7 +99,7 @@ class U_net(nn.Module):
             nn.LeakyReLU(0.1, inplace=True)
         )
 
-    def output_layer(self, input_channels, output_channels, kernel_size, stride, dropout_rate):
+    def output(self, input_channels, output_channels, kernel_size, stride, dropout_rate):
         return nn.Conv3d(input_channels, output_channels, kernel_size=kernel_size,
                          stride=stride, padding=(kernel_size - 1) // 2)
 
